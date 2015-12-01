@@ -10,6 +10,7 @@
 	"categories": [
 		"Other"
 	],
+  "license": "SEE LICENSE.txt",
 	"activationEvents": [
 		"onCommand:extension.markdownToc",
     "onLanguage:markdown"
@@ -28,5 +29,12 @@
 	"devDependencies": {
 		"typescript": "^1.6.2",
 		"vscode": "0.10.x"
+	},
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/curioustechizen/vscode-markdown-toc.git"
+	},
+  "bugs": {
+		"url": "https://github.com/curioustechizen/vscode-markdown-toc/issues"
 	}
 }
