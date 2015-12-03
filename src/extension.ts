@@ -87,7 +87,19 @@ export class TocGenerator {
     for (var i = 1; i < headingLevel; i++) {
       tocLine = tocLine.concat("  ");
     }
-    tocLine = tocLine.concat("- [").concat(headingText).concat("](#").concat(this._headingTextToAnchor(headingText)).concat(")");
+    tocLine = tocLine.concat("- [");
+    if(headingLevel === 1){
+      //Make the first level headings appear bold in the TOC
+      tocLine = tocLine.concat("**");
+    }
+    
+    tocLine = tocLine.concat(headingText);
+    if(headingLevel === 1){
+      //Make the first level headings appear bold in the TOC
+      tocLine = tocLine.concat("**");
+    }
+    
+    tocLine = tocLine.concat("](#").concat(this._headingTextToAnchor(headingText)).concat(")");
     return tocLine;
   }
   
