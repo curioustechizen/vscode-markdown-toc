@@ -1,4 +1,8 @@
-#Markdown TOC
+# Not maintained any more
+
+For a more up-to-date version of this extension that also has more features (and that can be installed from the MarketPlace), please refer to [this fork](https://github.com/joffreykern/vscode-markdown-toc) by Joffrey Kern.
+
+# Markdown TOC
 
 A [Visual Studio Code](https://code.visualstudio.com/) extension that generates a table of contents for your markdown file. Steps:
 
